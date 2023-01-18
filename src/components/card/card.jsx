@@ -44,7 +44,7 @@ export const Card = ({ name, phone, age, id, editData, deleteItem }) => {
             onChange={change}
             defaultValue={input.age}
             autoComplete="off"
-            type="text"
+            type="Number"
             placeholder="Age"
             name="age" />
           <br />
@@ -52,7 +52,7 @@ export const Card = ({ name, phone, age, id, editData, deleteItem }) => {
             onChange={change}
             defaultValue={input.phone}
             autoComplete="off"
-            type="text"
+            type="Number"
             placeholder="Phone"
             name="phone" />{" "}
           <br />
